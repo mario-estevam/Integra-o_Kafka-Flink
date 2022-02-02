@@ -3,7 +3,7 @@
 - Neste projeto são mostrados exemplos de integração do flink com o kafka, sendo possível conectar um programa java usando dependencias do flink para intermediar mensagens de um tópico do Kafka, assim como fazer o intermédio de comunicação entre dois tópicos Kafka.
 
 # O que é o Apache Kafka?
-Apache Kafka é uma plataforma open-source de processamento de streams desenvolvida pela Apache Software Foundation, <br/>
+Apache Kafka é uma plataforma open-source de processamento de streams desenvolvida pela Apache Software Foundation,
 escrita em Scala e Java. O projeto tem como objetivo fornecer uma plataforma unificada, de alta capacidade e baixa latência para tratamento de dados em tempo real.
 
 # O que é o Apache Flink?
