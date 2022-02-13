@@ -15,5 +15,10 @@ O núcleo do Apache Flink é um mecanismo de fluxo de dados de streaming distrib
 - O kafka instalado na máquina com dois tópicos abertos
 - Java 15
 
+# Sobre o código
+- Quando em execução a classe "Receptor" recebe os dados enviados pro tópico definido no código
+- Quando em execução a classe "Remetente" envia dados no formato de String para o tópico definido
+- Quando em execução a classe "Receptor_e_Remetente" recebe dados enviados pelo tópico definido, ler as informações através do tópico de input definido, executa um breve "evento" por assim dizer e retorna a mensagem "editada" para o tópico de output definido
+
 # Tutorial
 - https://docs.google.com/document/d/1dz-xP35K6VDTFQZ3FfqSLYUZdSPJ569cmUp1Kc3Tmko/edit
